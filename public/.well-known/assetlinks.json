@@ -1,0 +1,15 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.zamzam.restaurant",
+      "sha256_cert_fingerprints": [
+        "00:6B:56:16:72:8B:08:2D:33:9A:B0:D4:3F:8D:51:46:C5:9E:31:32:20:27:95:8F:42:67:07:70:E7:3D:96:08",
+        "8A:76:FA:6A:AC:BB:CC:E7:CF:7D:05:84:4F:90:75:88:97:55:3D:35:B5:E3:7C:A3:8F:9E:9C:F5:56:30:A0:B0",
+        "40:01:17:6F:25:05:ED:72:D9:D3:E9:F0:E9:B4:F5:36:8C:08:AD:EC:B9:7F:DC:DD:44:29:49:07:FF:3F:81:08"
+
+      ]
+    }
+  }
+]

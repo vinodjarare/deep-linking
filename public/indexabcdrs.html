@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Zamzam App</title>
+</head>
+<body>
+    <h1>Welcome to My Zamzam App</h1>
+    <p>Scan the QR code or click the link to open the app!</p>
+    <!-- <a href="myzamzamapp://">Open App</a> -->
+    <script>
+        const urlSearchParams = new URLSearchParams(window.location.search);
+        const params = Object.fromEntries(urlSearchParams.entries());
+        console.log(params)
+        <!-- alert(JSON.stringify(params)) -->
+            window.location = `myzamzamapp://Cartfood`;
+        <!-- window.location = `myzamzamapp://ConfirmlocationOrderDetails/${JSON.stringify(params)}`; -->
+    </script>
+</body>
+</html>
